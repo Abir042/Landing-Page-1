@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    min-height: 100px;
+    background-color: #121B2A;
+    overflow: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#header-logo {
+    float: left;
+    width: 20%;
+}
+
+#nav {
+    float: right;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#nav ul {
+    list-style: none;
+   
+}
+
+#nav ul li {
+     float: left;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 0 20px;
+}
+
+#banner {
+    min-height: 400px;
+    overflow: none;
+    background: url(banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#banner-text {
+    margin-top: 85px;
+    width: 50%;
+}
+
+#banner-text h3 {
+    font-size: 40px;
+    color: white;
+}
+
+#banner-text h1{
+    font-size: 45px;
+    color: #FFFFD4;
+    font-weight: bold;
+}
+
+#banner-text p {
+    font-size: 25px;
+    color: floralwhite;
+    font-weight: normal;
+}
+
+#banner-text button {
+    background: rgba(0,0,0,0.2) ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    height: 30px ;
+    padding: 10px;
+}
+
+#banner-text button:hover {
+    background-color: dodgerblue;
+    color: black;
+    transition: 1s;
+}
+
+#service {
+    overflow: none;
+    min-height: 300px;
+    color: white;
+    background-color: #121A2D;
+    padding: 100px 0;
+}
+
+
+.service-section {
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.service1 {
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-right: 1px solid grey;
+}
+
+.service1:last-child {
+    border-right: none;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.content-img {
+    width: 30%;
+    float: left;
+}
+
+.content-txt {
+    width: 70%;
+    float: right;
+}
+
+#footer {
+    min-height: 150px;
+    background-color: #121A2D;
+    border-top: 1px solid black;
+    overflow: none;
+}
+
+#nav2 {
+    overflow: none;
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+#nav2 ul{
+    list-style: none;
+}
+
+#nav2 ul li{
+    float: left;
+    padding-right: 10px;
+}
+
+#footer-logo {
+    width: 30%;
+    float: right;
+    margin-top: 8px;
+}
+
+#nav2 p {
+    font-style: italic;
+    float: left;
+}
